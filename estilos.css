@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  padding: 2rem;
+}
+
+.semestre {
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  background-color: #ffffff;
+}
+
+.semestre h2 {
+  margin-top: 0;
+  font-size: 1.2rem;
+  color: #444;
+}
+
+.ramos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+}
+
+.ramo {
+  background-color: #f8c0c0;
+  padding: 0.6rem 0.8rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  user-select: none;
+  flex: 1 1 250px;
+}
+
+.ramo.aprobado {
+  background-color: #b388eb;
+  text-decoration: line-through;
+  color: #fff;
+}
